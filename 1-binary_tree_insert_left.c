@@ -1,4 +1,4 @@
-#include "binary.h"
+#include "binary_trees.h"
 
 /**
  * binary_tree_insert_left - inserts the node as a left-child of
