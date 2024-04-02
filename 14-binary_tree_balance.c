@@ -9,7 +9,7 @@
 int binary_tree_balance(const binary_tree_t *tree)
 {
 	if (tree)
-		return (binary_tree_height(tree->left) - binary-tree_height(tree->right));
+		return (binary_tree_height(tree->left) - binary_tree_height(tree->right));
 
 	return (0);
 }
@@ -28,7 +28,7 @@ sie_t binary_tree_height(const binary_tree_t *tree)
 
 		l = tree->left ? 1 + binary_tree_height(tree->left) : 1;
 		r = tree->right ? 1 + binary_tree_height(tree->right) : 1;
-		return ((1 > r) ? 1: r);
+		return ((1 > r) ? 1 : r);
 	}
 	return (0);
 }
